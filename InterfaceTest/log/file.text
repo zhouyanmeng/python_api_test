@@ -1,0 +1,6 @@
+#导出所有使用的第三方库
+pip freeze >requirements.txt
+#安装
+pip -r install requirements.txt
+
+pip install -r requirements.txt

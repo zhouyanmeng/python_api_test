@@ -1,0 +1,17 @@
+test_001 (Week_6.Class_0321.HM_Testcase.TestLogin) ... ok
+test_002 (Week_6.Class_0321.HM_Testcase.TestLogin) ... ok
+test_003 (Week_6.Class_0321.HM_Testcase.TestLogin) ... ok
+test_004 (Week_6.Class_0321.HM_Testcase.TestLogin) ... ok
+test_001 (Week_6.Class_0321.HM_Testcase.TestLogin) ... ok
+test_002 (Week_6.Class_0321.HM_Testcase.TestLogin) ... ok
+test_003 (Week_6.Class_0321.HM_Testcase.TestLogin) ... ok
+test_004 (Week_6.Class_0321.HM_Testcase.TestLogin) ... ok
+test_001 (Week_6.Class_0321.HM_Testcase.TestLogin) ... ok
+test_002 (Week_6.Class_0321.HM_Testcase.TestLogin) ... ok
+test_003 (Week_6.Class_0321.HM_Testcase.TestLogin) ... ok
+test_004 (Week_6.Class_0321.HM_Testcase.TestLogin) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.313s
+
+OK

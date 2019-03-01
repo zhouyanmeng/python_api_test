@@ -1,0 +1,2 @@
+url:http://XXX.XXX.XXX.XXX:8080/futureloan/mvc/api/member/login,mobilephone:13760246701,pwd:123456
+url:http://XXX.XXX.XXX.XXX:8080/futureloan/mvc/api/member/login,mobilephone:15678934551,pwd:234555

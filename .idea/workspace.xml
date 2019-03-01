@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7ab05d2-9d23-4ab9-8ba9-38e0adb82d96" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python_15$Unittests_in_Class_ddt1_py.coverage" NAME="Unittests in Class_ddt1.py Coverage Results" MODIFIED="1554626849542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$requrst_login_ddt__1_.coverage" NAME="requrst_login_ddt (1) Coverage Results" MODIFIED="1554730195497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_in_test_http_reqest_py.coverage" NAME="Unittests in test_http_reqest.py Coverage Results" MODIFIED="1554627505989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$While.coverage" NAME="While Coverage Results" MODIFIED="1550753417910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_2/Class_0221" />
+    <SUITE FILE_PATH="coverage/python_15$register.coverage" NAME="register Coverage Results" MODIFIED="1554991242775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_ddt_new_HttpTestCase.coverage" NAME="Unittests for test_http_reqest_ddt_new.HttpTestCase Coverage Results" MODIFIED="1554729222592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Class_2_log.coverage" NAME="Class_2_log Coverage Results" MODIFIED="1553002809454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0319" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_add_testcase_AddTest.coverage" NAME="Unittests for add_testcase.AddTest Coverage Results" MODIFIED="1556950640368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Class_8_While.coverage" NAME="Class_8_While Coverage Results" MODIFIED="1550499129547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/python_15$do_excel_class.coverage" NAME="do_excel_class Coverage Results" MODIFIED="1555224149569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_API/Z_API_3" />
+    <SUITE FILE_PATH="coverage/python_15$A.coverage" NAME="A Coverage Results" MODIFIED="1551615939041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0302" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_login_LoginTest.coverage" NAME="Unittests for test_login.LoginTest Coverage Results" MODIFIED="1556969426793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$logger.coverage" NAME="logger Coverage Results" MODIFIED="1556969238969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/common" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_HM_Testcase_Test_request_faile_test_001.coverage" NAME="Unittests for HM_Testcase.Test_request_faile.test_001 Coverage Results" MODIFIED="1553522292140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_invest_InvestTest.coverage" NAME="Unittests for test_invest.InvestTest Coverage Results" MODIFIED="1556962428308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Class_2_import.coverage" NAME="Class_2_import Coverage Results" MODIFIED="1551362005066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0228" />
+    <SUITE FILE_PATH="coverage/python_15$Function_4_dict.coverage" NAME="Function_4_dict Coverage Results" MODIFIED="1551189132470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0226" />
+    <SUITE FILE_PATH="coverage/python_15$sesson_request.coverage" NAME="sesson_request Coverage Results" MODIFIED="1555222239129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_API/Z_API_2" />
+    <SUITE FILE_PATH="coverage/python_15$recharge.coverage" NAME="recharge Coverage Results" MODIFIED="1554993522688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_login_LoginTest_test_longin.coverage" NAME="Unittests for test_login.LoginTest.test_longin Coverage Results" MODIFIED="1555678828976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Class_1_category__1_.coverage" NAME="Class_1_category (1) Coverage Results" MODIFIED="1552205571049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_4/CLass_0309" />
+    <SUITE FILE_PATH="coverage/python_15$Class_1_Openpyxl.coverage" NAME="Class_1_Openpyxl Coverage Results" MODIFIED="1552570497659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_5/Class_0314" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_in_HM_Testcase_py.coverage" NAME="Unittests in HM_Testcase.py Coverage Results" MODIFIED="1553258536037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0321" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class_ddt1_TestAdd.coverage" NAME="Unittests for Class_ddt1.TestAdd Coverage Results" MODIFIED="1554730253056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Function_type.coverage" NAME="Function_type Coverage Results" MODIFIED="1550888881602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_2/Class_0223" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_recharge_RechargeTest.coverage" NAME="Unittests for test_recharge.RechargeTest Coverage Results" MODIFIED="1556964990022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Class_3_Debug.coverage" NAME="Class_3_Debug Coverage Results" MODIFIED="1552054462613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_4/Class_0305" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_HM_Testcase_TestLogin.coverage" NAME="Unittests for HM_Testcase.TestLogin Coverage Results" MODIFIED="1553517849698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$login_testcase.coverage" NAME="login_testcase Coverage Results" MODIFIED="1555238087485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_API/Z_API_3" />
+    <SUITE FILE_PATH="coverage/python_15$HomeWork__2_.coverage" NAME="HomeWork (2) Coverage Results" MODIFIED="1553089847015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0319" />
+    <SUITE FILE_PATH="coverage/python_15$CONF.coverage" NAME="CONF Coverage Results" MODIFIED="1554622942946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0319" />
+    <SUITE FILE_PATH="coverage/python_15$http_requests.coverage" NAME="http_requests Coverage Results" MODIFIED="1556961920114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/common" />
+    <SUITE FILE_PATH="coverage/python_15$request_test_sute__1_.coverage" NAME="request_test_sute (1) Coverage Results" MODIFIED="1554991676676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$login_testcase__1_.coverage" NAME="login_testcase (1) Coverage Results" MODIFIED="1555247045674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_in_HM_Testcasenew_py.coverage" NAME="Unittests in HM_Testcasenew.py Coverage Results" MODIFIED="1553523540051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$run.coverage" NAME="run Coverage Results" MODIFIED="1556970740552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_HM_Testcasenew_Test_Nomal_test_getNormal.coverage" NAME="Unittests for HM_Testcasenew.Test_Nomal.test_getNormal Coverage Results" MODIFIED="1553523621189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$do_mysql.coverage" NAME="do_mysql Coverage Results" MODIFIED="1555947248177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/common" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class_ddt1_Test_Add.coverage" NAME="Unittests for Class_ddt1.Test_Add Coverage Results" MODIFIED="1553520496024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$TestAdd.coverage" NAME="TestAdd Coverage Results" MODIFIED="1554730048842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$robot.coverage" NAME="robot Coverage Results" MODIFIED="1551492246628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/CLass_0302" />
+    <SUITE FILE_PATH="coverage/python_15$Class_05_Opention_CHaracter.coverage" NAME="Class_05_Opention_CHaracter Coverage Results" MODIFIED="1550398964529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/python_15$Class_9_function_type.coverage" NAME="Class_9_function_type Coverage Results" MODIFIED="1551100263747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Testcase_Test_recharge.coverage" NAME="Unittests for Testcase.Test_recharge Coverage Results" MODIFIED="1554992886006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$Http_req_OK_ddt.coverage" NAME="Http_req_OK_ddt Coverage Results" MODIFIED="1554730313815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Learn_info.coverage" NAME="Learn_info Coverage Results" MODIFIED="1553521721300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Do_excel.coverage" NAME="Do_excel Coverage Results" MODIFIED="1555223605382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0319" />
+    <SUITE FILE_PATH="coverage/python_15$report.coverage" NAME="report Coverage Results" MODIFIED="1556970881602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/report" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_ddt_new_Test_Case.coverage" NAME="Unittests for test_http_reqest_ddt_new.Test_Case Coverage Results" MODIFIED="1554728473550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_Test_request_success_test_001.coverage" NAME="Unittests for test_http_reqest.Test_request_success.test_001 Coverage Results" MODIFIED="1554625014477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_g_TestMathMethod.coverage" NAME="Unittests for g.TestMathMethod Coverage Results" MODIFIED="1553258207429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0321" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Testcase_Test_login_1_test_001.coverage" NAME="Unittests for Testcase.Test_login_1.test_001 Coverage Results" MODIFIED="1554992113861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$rechare_testcase.coverage" NAME="rechare_testcase Coverage Results" MODIFIED="1555245229602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_API/Z_API_3" />
+    <SUITE FILE_PATH="coverage/python_15$cfg_work.coverage" NAME="cfg_work Coverage Results" MODIFIED="1554622131022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_9_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Class_9_function2.coverage" NAME="Class_9_function2 Coverage Results" MODIFIED="1551276589559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_Test_request_success_test_002.coverage" NAME="Unittests for test_http_reqest.Test_request_success.test_002 Coverage Results" MODIFIED="1554638269916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$do_excel.coverage" NAME="do_excel Coverage Results" MODIFIED="1555228301014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_API/Z_API_3" />
+    <SUITE FILE_PATH="coverage/python_15$File_2.coverage" NAME="File_2 Coverage Results" MODIFIED="1551575961826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/CLass_0302" />
+    <SUITE FILE_PATH="coverage/python_15$Class_baseinfo.coverage" NAME="Class_baseinfo Coverage Results" MODIFIED="1550153497549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_1/Class_01_0214" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_HM_Testcase_Test_request_success.coverage" NAME="Unittests for HM_Testcase.Test_request_success Coverage Results" MODIFIED="1553520471437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Class_2_mianshi.coverage" NAME="Class_2_mianshi Coverage Results" MODIFIED="1554213283990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_8/Class_0402" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_Test_register_1.coverage" NAME="Unittests for test_http_reqest.Test_register_1 Coverage Results" MODIFIED="1554991184467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$List.coverage" NAME="List Coverage Results" MODIFIED="1550299793172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_1/Class_02_0216" />
+    <SUITE FILE_PATH="coverage/python_15$Class_2_class.coverage" NAME="Class_2_class Coverage Results" MODIFIED="1552053007345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_4/Class_0305" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class_ddt_TestMethod_test_001.coverage" NAME="Unittests for Class_ddt.TestMethod.test_001 Coverage Results" MODIFIED="1553310057280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0321" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_ddt_Test_request_faile_test_001.coverage" NAME="Unittests for test_http_reqest_ddt.Test_request_faile.test_001 Coverage Results" MODIFIED="1554631756375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_in_test_http_reqest_ddt_py.coverage" NAME="Unittests in test_http_reqest_ddt.py Coverage Results" MODIFIED="1554639061563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$do_excel_class_3.coverage" NAME="do_excel_class_3 Coverage Results" MODIFIED="1555229208841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_API/Z_API_3" />
+    <SUITE FILE_PATH="coverage/python_15$Py_HomeWrok.coverage" NAME="Py_HomeWrok Coverage Results" MODIFIED="1552747286015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_5/Class_0314" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class_ddt1_Test_Addnew.coverage" NAME="Unittests for Class_ddt1.Test_Addnew Coverage Results" MODIFIED="1553521231888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_add_AddTest.coverage" NAME="Unittests for test_add.AddTest Coverage Results" MODIFIED="1556953833247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$myloger.coverage" NAME="myloger Coverage Results" MODIFIED="1554623451933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$other_logging.coverage" NAME="other_logging Coverage Results" MODIFIED="1554622041971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_9_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$study_re.coverage" NAME="study_re Coverage Results" MODIFIED="1556958633641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$re.coverage" NAME="re Coverage Results" MODIFIED="1555944806447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Function_1_String.coverage" NAME="Function_1_String Coverage Results" MODIFIED="1551184127838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0226" />
+    <SUITE FILE_PATH="coverage/python_15$For.coverage" NAME="For Coverage Results" MODIFIED="1550755875584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_2/Class_0221" />
+    <SUITE FILE_PATH="coverage/python_15$do_excel__1_.coverage" NAME="do_excel (1) Coverage Results" MODIFIED="1554731974811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_8/week_6/class_0105" />
+    <SUITE FILE_PATH="coverage/python_15$contants.coverage" NAME="contants Coverage Results" MODIFIED="1556970692913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/common" />
+    <SUITE FILE_PATH="coverage/python_15$Class_2_openpyxl.coverage" NAME="Class_2_openpyxl Coverage Results" MODIFIED="1552571115226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_5/Class_0314" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_Test_request_faile.coverage" NAME="Unittests for test_http_reqest.Test_request_faile Coverage Results" MODIFIED="1554627409254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$request_test_sute.coverage" NAME="request_test_sute Coverage Results" MODIFIED="1554993826290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$Class_2_category__1_.coverage" NAME="Class_2_category (1) Coverage Results" MODIFIED="1552218404501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_4/CLass_0309" />
+    <SUITE FILE_PATH="coverage/python_15$http_request_cookies.coverage" NAME="http_request_cookies Coverage Results" MODIFIED="1555081662293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_API_2" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_HM_Testcase_Test_request_faile.coverage" NAME="Unittests for HM_Testcase.Test_request_faile Coverage Results" MODIFIED="1553522157667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$requrst_login_ddt.coverage" NAME="requrst_login_ddt Coverage Results" MODIFIED="1554729884020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_9_DDT" />
+    <SUITE FILE_PATH="coverage/python_15$Class_1_category.coverage" NAME="Class_1_category Coverage Results" MODIFIED="1552196744533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_4/Class_0307" />
+    <SUITE FILE_PATH="coverage/python_15$register_testcase.coverage" NAME="register_testcase Coverage Results" MODIFIED="1555247115331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$http_requests__1_.coverage" NAME="http_requests (1) Coverage Results" MODIFIED="1555246664852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/comment" />
+    <SUITE FILE_PATH="coverage/python_15$Class_1_conf.coverage" NAME="Class_1_conf Coverage Results" MODIFIED="1554623032183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0319" />
+    <SUITE FILE_PATH="coverage/python_15$Class_11_import.coverage" NAME="Class_11_import Coverage Results" MODIFIED="1551278225935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/python_15$Tuple.coverage" NAME="Tuple Coverage Results" MODIFIED="1550284761641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_1/Class_02_0216" />
+    <SUITE FILE_PATH="coverage/python_15$API_1.coverage" NAME="API_1 Coverage Results" MODIFIED="1555080516609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_API_2" />
+    <SUITE FILE_PATH="coverage/python_15$Output_Format.coverage" NAME="Output_Format Coverage Results" MODIFIED="1550288116639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_1/Class_02_0216" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Testcase_Test_register_1_test_001.coverage" NAME="Unittests for Testcase.Test_register_1.test_001 Coverage Results" MODIFIED="1554991923745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$config.coverage" NAME="config Coverage Results" MODIFIED="1555511375890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/comment" />
+    <SUITE FILE_PATH="coverage/python_15$Opention_Character.coverage" NAME="Opention_Character Coverage Results" MODIFIED="1550581143867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_2" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_Test_register_1_test_001.coverage" NAME="Unittests for test_http_reqest.Test_register_1.test_001 Coverage Results" MODIFIED="1554991635796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$List_DIct.coverage" NAME="List_DIct Coverage Results" MODIFIED="1550286082760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_1/Class_02_0216" />
+    <SUITE FILE_PATH="coverage/python_15$other_cfg.coverage" NAME="other_cfg Coverage Results" MODIFIED="1554622117130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_9_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Class_13_operate.coverage" NAME="Class_13_operate Coverage Results" MODIFIED="1551620943815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/python_15$HomeWork.coverage" NAME="HomeWork Coverage Results" MODIFIED="1554623055176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0319" />
+    <SUITE FILE_PATH="coverage/python_15$read_me.coverage" NAME="read_me Coverage Results" MODIFIED="1554732008483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_8/week_6" />
+    <SUITE FILE_PATH="coverage/python_15$Configparser.coverage" NAME="Configparser Coverage Results" MODIFIED="1554617824355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_9_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$HomeWork__1_.coverage" NAME="HomeWork (1) Coverage Results" MODIFIED="1554622867921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_9_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$rechage_testcase.coverage" NAME="rechage_testcase Coverage Results" MODIFIED="1555247161708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Testcase_Test_register_1.coverage" NAME="Unittests for Testcase.Test_register_1 Coverage Results" MODIFIED="1554991930973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_HM_Testcasenew_Test_Nomal.coverage" NAME="Unittests for HM_Testcasenew.Test_Nomal Coverage Results" MODIFIED="1553523678135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Class_06_if.coverage" NAME="Class_06_if Coverage Results" MODIFIED="1550402414319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_in_Class_0321_py.coverage" NAME="Unittests in Class_0321.py Coverage Results" MODIFIED="1553173879041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0321" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Testcase_Test_recharge_test_001.coverage" NAME="Unittests for Testcase.Test_recharge.test_001 Coverage Results" MODIFIED="1554993663610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_in_test_register_py.coverage" NAME="Unittests in test_register.py Coverage Results" MODIFIED="1555332981013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Test_Suit.coverage" NAME="Test_Suit Coverage Results" MODIFIED="1553263368737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0321" />
+    <SUITE FILE_PATH="coverage/python_15$function_1.coverage" NAME="function_1 Coverage Results" MODIFIED="1551491058045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/CLass_0302" />
+    <SUITE FILE_PATH="coverage/python_15$requrst_login.coverage" NAME="requrst_login Coverage Results" MODIFIED="1554624723748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$HttpRequestMethodnew.coverage" NAME="HttpRequestMethodnew Coverage Results" MODIFIED="1553523794979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$API_HW.coverage" NAME="API_HW Coverage Results" MODIFIED="1554990546382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$Function_2_tuple.coverage" NAME="Function_2_tuple Coverage Results" MODIFIED="1551184657013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0226" />
+    <SUITE FILE_PATH="coverage/python_15$sessions.coverage" NAME="sessions Coverage Results" MODIFIED="1555222232746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/requests" />
+    <SUITE FILE_PATH="coverage/python_15$Home_Work.coverage" NAME="Home_Work Coverage Results" MODIFIED="1552744855868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_5/Class_0314" />
+    <SUITE FILE_PATH="coverage/python_15$Home_work.coverage" NAME="Home_work Coverage Results" MODIFIED="1551615712519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0302" />
+    <SUITE FILE_PATH="coverage/python_15$http_request_cookies__1_.coverage" NAME="http_request_cookies (1) Coverage Results" MODIFIED="1555222216907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_API/Z_API_2" />
+    <SUITE FILE_PATH="coverage/python_15$homework.coverage" NAME="homework Coverage Results" MODIFIED="1550916141161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_2/Class_0221" />
+    <SUITE FILE_PATH="coverage/python_15$HM_Testcase.coverage" NAME="HM_Testcase Coverage Results" MODIFIED="1553520944252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_register_RegisterTest.coverage" NAME="Unittests for test_register.RegisterTest Coverage Results" MODIFIED="1555947315836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Class_10_file.coverage" NAME="Class_10_file Coverage Results" MODIFIED="1551103960762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/python_15$Hw_1.coverage" NAME="Hw_1 Coverage Results" MODIFIED="1551273293507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0226" />
+    <SUITE FILE_PATH="coverage/python_15$Function.coverage" NAME="Function Coverage Results" MODIFIED="1550757890116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_2/Class_0221" />
+    <SUITE FILE_PATH="coverage/python_15$myloger__1_.coverage" NAME="myloger (1) Coverage Results" MODIFIED="1554623362667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_91_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_register_RegisterTest_test_longin.coverage" NAME="Unittests for test_register.RegisterTest.test_longin Coverage Results" MODIFIED="1555947306460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$context.coverage" NAME="context Coverage Results" MODIFIED="1556958622223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/common" />
+    <SUITE FILE_PATH="coverage/python_15$If.coverage" NAME="If Coverage Results" MODIFIED="1550584398122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_2" />
+    <SUITE FILE_PATH="coverage/python_15$httpreq.coverage" NAME="httpreq Coverage Results" MODIFIED="1554991858450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$Class_07_For.coverage" NAME="Class_07_For Coverage Results" MODIFIED="1550403731841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class_0321_TestMathMethod_test_001.coverage" NAME="Unittests for Class_0321.TestMathMethod.test_001 Coverage Results" MODIFIED="1553256967347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0321" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_ddt_Test_request_success.coverage" NAME="Unittests for test_http_reqest_ddt.Test_request_success Coverage Results" MODIFIED="1554729333205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_math_method_TestAdd_test_add.coverage" NAME="Unittests for test_math_method.TestAdd.test_add Coverage Results" MODIFIED="1554731950990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_8/week_6/class_0103" />
+    <SUITE FILE_PATH="coverage/python_15$d1.coverage" NAME="d1 Coverage Results" MODIFIED="1554732682739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_8/src" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class_ddt1_TestAdd_test_001.coverage" NAME="Unittests for Class_ddt1.TestAdd.test_001 Coverage Results" MODIFIED="1554730238764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Class_2_category.coverage" NAME="Class_2_category Coverage Results" MODIFIED="1552199515264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_4/Class_0307" />
+    <SUITE FILE_PATH="coverage/python_15$Dict.coverage" NAME="Dict Coverage Results" MODIFIED="1550303947485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_1/Class_02_0216" />
+    <SUITE FILE_PATH="coverage/python_15$login.coverage" NAME="login Coverage Results" MODIFIED="1554903020917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1554899465307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$HW_for.coverage" NAME="HW_for Coverage Results" MODIFIED="1551190727401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0226" />
+    <SUITE FILE_PATH="coverage/python_15$HW_child_category.coverage" NAME="HW_child_category Coverage Results" MODIFIED="1552220322540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_4/CLass_0309" />
+    <SUITE FILE_PATH="coverage/python_15$httpreq_OK.coverage" NAME="httpreq_OK Coverage Results" MODIFIED="1554623600609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$new.coverage" NAME="new Coverage Results" MODIFIED="1554623043644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0319" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_ddt_new_Test_http.coverage" NAME="Unittests for test_http_reqest_ddt_new.Test_http Coverage Results" MODIFIED="1554728511187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$neizhi_function__1_.coverage" NAME="neizhi_function (1) Coverage Results" MODIFIED="1550893463707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_2/Class_0223" />
+    <SUITE FILE_PATH="coverage/python_15$Class_9.coverage" NAME="Class_9 Coverage Results" MODIFIED="1551276871905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Testcase_Test_login_1_test_002.coverage" NAME="Unittests for Testcase.Test_login_1.test_002 Coverage Results" MODIFIED="1554992096204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_10_API" />
+    <SUITE FILE_PATH="coverage/python_15$logging.coverage" NAME="logging Coverage Results" MODIFIED="1554622789574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_9_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_ddt_Test_request_faile_test_002.coverage" NAME="Unittests for test_http_reqest_ddt.Test_request_faile.test_002 Coverage Results" MODIFIED="1554637629981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Home_Work_TestCase.coverage" NAME="Home_Work_TestCase Coverage Results" MODIFIED="1553258103473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0321" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_HM_Testcase_TestLogin_test_001.coverage" NAME="Unittests for HM_Testcase.TestLogin.test_001 Coverage Results" MODIFIED="1553517870909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$File_2__1_.coverage" NAME="File_2 (1) Coverage Results" MODIFIED="1551579191011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0302" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_HM_Testcase_TestLogin_test_004.coverage" NAME="Unittests for HM_Testcase.TestLogin.test_004 Coverage Results" MODIFIED="1553517817146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$HW_function.coverage" NAME="HW_function Coverage Results" MODIFIED="1551599041357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0302" />
+    <SUITE FILE_PATH="coverage/python_15$For_for.coverage" NAME="For_for Coverage Results" MODIFIED="1550756141111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_2/Class_0219" />
+    <SUITE FILE_PATH="coverage/python_15$Class_function2.coverage" NAME="Class_function2 Coverage Results" MODIFIED="1551101610816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_Test_request_success.coverage" NAME="Unittests for test_http_reqest.Test_request_success Coverage Results" MODIFIED="1554638275004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class_0321_TestMathMethod.coverage" NAME="Unittests for Class_0321.TestMathMethod Coverage Results" MODIFIED="1553258849344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0321" />
+    <SUITE FILE_PATH="coverage/python_15$Http_req.coverage" NAME="Http_req Coverage Results" MODIFIED="1554623549366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$mail.coverage" NAME="mail Coverage Results" MODIFIED="1554731579003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_8/Class_0402" />
+    <SUITE FILE_PATH="coverage/python_15$do_excel_class_2.coverage" NAME="do_excel_class_2 Coverage Results" MODIFIED="1555225575800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_API/Z_API_3" />
+    <SUITE FILE_PATH="coverage/python_15$Function_3_list.coverage" NAME="Function_3_list Coverage Results" MODIFIED="1551188244426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0226" />
+    <SUITE FILE_PATH="coverage/python_15$Class_1_path.coverage" NAME="Class_1_path Coverage Results" MODIFIED="1551359131479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0228" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_add_test_AddTest.coverage" NAME="Unittests for add_test.AddTest Coverage Results" MODIFIED="1556950511851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Class_3_category.coverage" NAME="Class_3_category Coverage Results" MODIFIED="1552206515685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_4/Class_0307" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class_0321_TestMathMethod_test_002.coverage" NAME="Unittests for Class_0321.TestMathMethod.test_002 Coverage Results" MODIFIED="1553173937227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0321" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_HM_Testcase_TestLogin_test_003.coverage" NAME="Unittests for HM_Testcase.TestLogin.test_003 Coverage Results" MODIFIED="1553517803525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class_ddt_TestMethod.coverage" NAME="Unittests for Class_ddt.TestMethod Coverage Results" MODIFIED="1553310147338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0321" />
+    <SUITE FILE_PATH="coverage/python_15$class_.coverage" NAME="class_日志 Coverage Results" MODIFIED="1554731968989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_8/week_6/class_0105" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_login_LoginTest_test_login.coverage" NAME="Unittests for test_login.LoginTest.test_login Coverage Results" MODIFIED="1555418150449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Http_req__1_.coverage" NAME="Http_req (1) Coverage Results" MODIFIED="1554623608730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Class_12_yichang.coverage" NAME="Class_12_yichang Coverage Results" MODIFIED="1551620222384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_Test_request_faile_test_001.coverage" NAME="Unittests for test_http_reqest.Test_request_faile.test_001 Coverage Results" MODIFIED="1554627102277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$http_helper.coverage" NAME="http_helper Coverage Results" MODIFIED="1554732705614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_8/src" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_HM_Testcase_Test_request_success_test_001.coverage" NAME="Unittests for HM_Testcase.Test_request_success.test_001 Coverage Results" MODIFIED="1553520364045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class1_ddtinfo_TestMethod_test_001.coverage" NAME="Unittests for Class1_ddtinfo.TestMethod.test_001 Coverage Results" MODIFIED="1553310243080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0321" />
+    <SUITE FILE_PATH="coverage/python_15$Test_suite_HW.coverage" NAME="Test_suite_HW Coverage Results" MODIFIED="1553519628093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Class_1_exception.coverage" NAME="Class_1_exception Coverage Results" MODIFIED="1552052119799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_4/Class_0305" />
+    <SUITE FILE_PATH="coverage/python_15$data.coverage" NAME="data Coverage Results" MODIFIED="1554732691218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_8/src" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class_ddt1_Test_Addnew_test_001.coverage" NAME="Unittests for Class_ddt1.Test_Addnew.test_001 Coverage Results" MODIFIED="1553521218268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_HM_Testcasenew_TestLogin.coverage" NAME="Unittests for HM_Testcasenew.TestLogin Coverage Results" MODIFIED="1553522526834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_ddt_Test_request_faile.coverage" NAME="Unittests for test_http_reqest_ddt.Test_request_faile Coverage Results" MODIFIED="1554730053494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class_ddt1_Test_Add_test_001.coverage" NAME="Unittests for Class_ddt1.Test_Add.test_001 Coverage Results" MODIFIED="1553521051075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_Class1_ddtinfo_TestAdd_test_001.coverage" NAME="Unittests for Class1_ddtinfo.TestAdd.test_001 Coverage Results" MODIFIED="1553310300885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0321" />
+    <SUITE FILE_PATH="coverage/python_15$pysql.coverage" NAME="pysql Coverage Results" MODIFIED="1555677215721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_ddt_new_Test_request_faile.coverage" NAME="Unittests for test_http_reqest_ddt_new.Test_request_faile Coverage Results" MODIFIED="1554727988100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Class_base.coverage" NAME="Class_base Coverage Results" MODIFIED="1550148545695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_1/Class_01_0214" />
+    <SUITE FILE_PATH="coverage/python_15$study_reflect.coverage" NAME="study_reflect Coverage Results" MODIFIED="1556957603558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTest/testcase" />
+    <SUITE FILE_PATH="coverage/python_15$HttpRequestMethod.coverage" NAME="HttpRequestMethod Coverage Results" MODIFIED="1553522718764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_test_http_reqest_TestHttpRequest_test.coverage" NAME="Unittests for test_http_reqest.TestHttpRequest.test Coverage Results" MODIFIED="1554623680914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$result.coverage" NAME="result Coverage Results" MODIFIED="1554625649628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_92_Interface_before_wk" />
+    <SUITE FILE_PATH="coverage/python_15$Unittests_for_HM_Testcasenew_TestLogin_test_001.coverage" NAME="Unittests for HM_Testcasenew.TestLogin.test_001 Coverage Results" MODIFIED="1553522488387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_6/Class_0323" />
+    <SUITE FILE_PATH="coverage/python_15$File_3.coverage" NAME="File_3 Coverage Results" MODIFIED="1551579971310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_3/Class_0302" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1192458805">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="DEBUG" value="1" />
+          <entry key="cfg" value="8" />
+          <entry key="conf" value="28" />
+          <entry key="cong" value="1" />
+          <entry key="html" value="5" />
+          <entry key="log" value="19" />
+          <entry key="py" value="524" />
+          <entry key="pyhton_15" value="1" />
+          <entry key="pyi" value="1" />
+          <entry key="python" value="1" />
+          <entry key="text" value="1" />
+          <entry key="tmp" value="1" />
+          <entry key="txt" value="73" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="5" />
+          <entry key="Ini" value="8" />
+          <entry key="PLAIN_TEXT" value="125" />
+          <entry key="Python" value="525" />
+          <entry key="PythonStub" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cfg" value="96" />
+          <entry key="conf" value="1147" />
+          <entry key="dummy" value="169" />
+          <entry key="py" value="86332" />
+          <entry key="pyi" value="177" />
+          <entry key="text" value="95" />
+          <entry key="txt" value="56" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="96" />
+          <entry key="PLAIN_TEXT" value="1467" />
+          <entry key="Python" value="86332" />
+          <entry key="PythonStub" value="177" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="python_15" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InterfaceTest/common/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1555725512741" expanded="true" signature="79:81" ph="..." />
+                <marker date="1555725512741" expanded="true" signature="79:83" ph="..." />
+                <marker date="1555725512741" expanded="true" signature="79:85" ph="..." />
+                <marker date="1555725512741" expanded="true" signature="79:88" ph="..." />
+                <marker date="1555725512741" expanded="true" signature="79:95" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InterfaceTest/common/context.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1556960778775" expanded="true" signature="91:110" ph="..." />
+                <marker date="1556960778775" expanded="true" signature="586:591" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InterfaceTest/log/file.text">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Stub" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Week_10_API/register.py" />
+        <option value="$PROJECT_DIR$/Week_10_API/request_test_sute.py" />
+        <option value="$PROJECT_DIR$/Week_10_API/Testcase.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/request_test_sute.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/Testcase.py" />
+        <option value="$PROJECT_DIR$/Z_API_2/API_HW.py" />
+        <option value="$PROJECT_DIR$/Z_API_2/httpreq.py" />
+        <option value="$PROJECT_DIR$/Z_API_2/sesson_request.py" />
+        <option value="$PROJECT_DIR$/Z_API_2/http_request_cookies.py" />
+        <option value="$PROJECT_DIR$/Z_API_2/http_requests.py" />
+        <option value="$PROJECT_DIR$/Z_API/Z_API_3/do_excel_class.py" />
+        <option value="$PROJECT_DIR$/Z_API/Z_API_3/do_excel_class_1.py" />
+        <option value="$PROJECT_DIR$/Z_API/Z_API_3/do_excel_class_2.py" />
+        <option value="$PROJECT_DIR$/Z_API/Z_API_3/__init__.py" />
+        <option value="$PROJECT_DIR$/Z_API/Z_API_3/do_excel_class_3.py" />
+        <option value="$PROJECT_DIR$/Z_API/Z_API_3/login_testcase.py" />
+        <option value="$PROJECT_DIR$/Z_API/Z_API_3/do_excel.py" />
+        <option value="$PROJECT_DIR$/Z_API/Z_API_3/register_testcase.py" />
+        <option value="$PROJECT_DIR$/Z_API/Z_API_3/http_requests.py" />
+        <option value="$PROJECT_DIR$/Z_API/Z_API_3/rechare_testcase.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/login_testcase.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/register_testcase.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/rechage_testcase.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/config/test.conf" />
+        <option value="$PROJECT_DIR$/InterfaceTest/config/global.conf" />
+        <option value="$PROJECT_DIR$/InterfaceTest/comment/contants.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/comment/config.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/comment/http_requests.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/pysql.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/comment/do_mysql.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/common/config.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/re.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/study_re.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/add_test.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/add_testcase.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/study_reflect.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/test_add.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/test_register.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/common/context.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/config/online.conf" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/test_invest.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/common/do_excel.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/common/do_mysql.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/test_recharge.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/test_login.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/common/http_requests.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/common/logger.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/common/contants.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/testcase/run.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/report/report.py" />
+        <option value="$PROJECT_DIR$/InterfaceTest/log/file.text" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1121" />
+    <option name="y" value="298" />
+    <option name="width" value="1932" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8Inspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="python_15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_15" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_15" type="462c0819:PsiDirectoryNode" />
+              <item name="InterfaceTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_15" type="462c0819:PsiDirectoryNode" />
+              <item name="InterfaceTest" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_15" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_15" type="462c0819:PsiDirectoryNode" />
+              <item name="InterfaceTest" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/API_8" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="python15" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="python15" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Pythontesting\python_15\InterfaceTest\study" />
+      <recent name="E:\Pythontesting\python_15\InterfaceTest\testcase" />
+      <recent name="E:\Pythontesting\python_15\InterfaceTest\data" />
+      <recent name="E:\Pythontesting\python_15\Z_API" />
+      <recent name="E:\Pythontesting\python_15\InterfaceTest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Pythontesting\python_15\InterfaceTest\testcase" />
+      <recent name="E:\Pythontesting\python_15\InterfaceTest\report" />
+      <recent name="E:\Pythontesting\python_15\InterfaceTest\config" />
+      <recent name="E:\Pythontesting\python_15\InterfaceTest\comment" />
+      <recent name="E:\Pythontesting\python_15\InterfaceTest\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.report">
+    <configuration name="contants" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python15" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterfaceTest/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterfaceTest/common/contants.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python15" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterfaceTest/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterfaceTest/common/logger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="report" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python15" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterfaceTest/report" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterfaceTest/report/report.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python15" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterfaceTest/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterfaceTest/testcase/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_login.LoginTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python15" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterfaceTest/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.LoginTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests for test_login.LoginTest" />
+      <item itemvalue="Python.logger" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.contants" />
+      <item itemvalue="Python.report" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.report" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.contants" />
+        <item itemvalue="Python tests.Unittests for test_login.LoginTest" />
+        <item itemvalue="Python.logger" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7ab05d2-9d23-4ab9-8ba9-38e0adb82d96" name="Default Changelist" comment="" />
+      <created>1550146389685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550146389685</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_invest_InvestTest - 2019.05.04 at 17h 31m 50s.xml">
+      <configuration name="Unittests for test_invest.InvestTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_invest_InvestTest - 2019.05.04 at 17h 33m 53s.xml">
+      <configuration name="Unittests for test_invest.InvestTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_recharge_RechargeTest - 2019.05.04 at 17h 41m 54s.xml">
+      <configuration name="Unittests for test_recharge.RechargeTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_recharge_RechargeTest - 2019.05.04 at 17h 42m 56s.xml">
+      <configuration name="Unittests for test_recharge.RechargeTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_recharge_RechargeTest - 2019.05.04 at 18h 11m 18s.xml">
+      <configuration name="Unittests for test_recharge.RechargeTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_recharge_RechargeTest - 2019.05.04 at 18h 11m 47s.xml">
+      <configuration name="Unittests for test_recharge.RechargeTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_recharge_RechargeTest - 2019.05.04 at 18h 13m 03s.xml">
+      <configuration name="Unittests for test_recharge.RechargeTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_recharge_RechargeTest - 2019.05.04 at 18h 16m 35s.xml">
+      <configuration name="Unittests for test_recharge.RechargeTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_login_LoginTest - 2019.05.04 at 19h 27m 43s.xml">
+      <configuration name="Unittests for test_login.LoginTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_login_LoginTest - 2019.05.04 at 19h 30m 30s.xml">
+      <configuration name="Unittests for test_login.LoginTest" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-115" y="32" width="1932" height="1100" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8210863" visible="true" weight="0.17147435" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.17891374" side_tool="true" weight="0.16204691" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3259804" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.16666667" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20585048" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3277512" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.48240167" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.36511377" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3795243" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32911393" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="787" selection-start-line="787" selection-end-line="787" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/collections/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="905" selection-start-line="905" selection-end-line="905" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/study/register_testcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/study/login_testcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/study/study_reflect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/study/add_testcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="21" column="35" lean-forward="true" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/testcase/test_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/study/study_re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="580" selection-start-line="580" selection-end-line="580" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/testcase/test_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/config/online.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/diff_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/testcase/test_invest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/openpyxl/workbook/workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="395" selection-start-line="395" selection-end-line="395" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/openpyxl/writer/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/zipfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="1204" column="3" selection-start-line="1204" selection-start-column="3" selection-end-line="1204" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/common/do_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21636">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/ddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5004">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/testcase/test_recharge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/common/do_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_91_Interface_before_wk/class_config.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_91_Interface_before_wk/Class_ddt1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_91_Interface_before_wk/HomeWork.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_91_Interface_before_wk/myloger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-397">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_91_Interface_before_wk/mylog.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_91_Interface_before_wk/mycfg.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_91_Interface_before_wk/logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/log/case.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1187">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/common/http_requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_92_Interface_before_wk/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_9_DDT/request_test_sute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/src/http_report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/src/http_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/src/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_8/src/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/testcase/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/common/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/common/HTMLTestRunnerNew.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/testcase/pysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/common/contants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/report/report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/testcase/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" lean-forward="true" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/report/report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/common/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1555725512741" expanded="true" signature="79:81" ph="..." />
+            <marker date="1555725512741" expanded="true" signature="79:83" ph="..." />
+            <marker date="1555725512741" expanded="true" signature="79:85" ph="..." />
+            <marker date="1555725512741" expanded="true" signature="79:88" ph="..." />
+            <marker date="1555725512741" expanded="true" signature="79:95" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/common/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1556960778775" expanded="true" signature="91:110" ph="..." />
+            <marker date="1556960778775" expanded="true" signature="586:591" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTest/log/file.text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

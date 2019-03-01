@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>python api test report</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 20px; font-size: 120%; }
+table       { font-size: 100%; }
+/* -- heading ---------------------------------------------------------------------- */
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 调整增加只显示通过用例的分类 --Findyou
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+	//console.log(detail_class.length)
+	if (level == 3) {
+		for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="收起"
+		}
+	}
+	else{
+			for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="详细"
+		}
+	}
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        //ID修改 点 为 下划线 -Findyou
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+</script>
+<div class='heading'>
+<h1 style="font-family: Microsoft YaHei">python api test report</h1>
+<p class='attribute'><strong>测试人员 : </strong> xiaoyao</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-05-04 19:54:45</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:12.759120</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 41，通过 31，失败 3，错误 7，通过率= 75.61%</p>
+
+<p class='description'>xs api</p>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 75.61% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 3 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 31 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 41 }</a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 16px;">
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>详细</td>
+</tr>
+
+<tr class='failClass warning'>
+    <td>test_add.AddTest</td>
+    <td class="text-center">2</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_add_1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse in" align="left">
+    <pre>
+    
+pt1_1: &lt;class 'str'&gt; {"mobilephone":"#normal_user#","pwd":"#normal_pwd#"}
+{"mobilephone":"#normal_user#","pwd":"#normal_pwd#"}
+15810447878
+{"mobilephone":"15810447878","pwd":"#normal_pwd#"}
+123456
+{"mobilephone":"15810447878","pwd":"123456"}
+请求response: {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft1_2' class='none'>
+    <td class='failCase'><div class='testcase'>test_add_2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_2'>失败</button>
+    <div id='div_ft1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_2'>失败</button>
+    <div id='div_ft1_2' class="collapse in" align="left">
+    <pre>
+    
+ft1_2: &lt;class 'str'&gt; {"memberId":"#loan_member_id#","title":"试试人品行不行，借个2W玩玩","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+{"memberId":"#loan_member_id#","title":"试试人品行不行，借个2W玩玩","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+1008
+{"memberId":"1008","title":"试试人品行不行，借个2W玩玩","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+请求response: {"status":0,"code":"20105","data":null,"msg":"不存在该会员"}
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_add.py", line 27, in test_add
+    raise e
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_add.py", line 23, in test_add
+    self.assertEqual(str(case.expected), resp.json()['code'])
+AssertionError: '10001' != '20105'
+- 10001
++ 20105
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>test_invest.InvestTest</td>
+    <td class="text-center">7</td>
+    <td class="text-center">0</td>
+    <td class="text-center">2</td>
+    <td class="text-center">5</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',7)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+<tr id='ft2_1' class='none'>
+    <td class='failCase'><div class='testcase'>test_invest_1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_1'>失败</button>
+    <div id='div_ft2_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_1'>失败</button>
+    <div id='div_ft2_1' class="collapse in" align="left">
+    <pre>
+    
+ft2_1: 开始执行测试用例 管理员正常登录
+&lt;class 'str'&gt; {"mobilephone":"#admin_user#","pwd":"#admin_pwd#"}
+{"mobilephone":"#admin_user#","pwd":"#admin_pwd#"}
+15814447890
+{"mobilephone":"15814447890","pwd":"#admin_pwd#"}
+123456
+{"mobilephone":"15814447890","pwd":"123456"}
+请求response: {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_invest.py", line 38, in test_invest
+    raise e
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_invest.py", line 27, in test_invest
+    self.assertEqual(str(case.expected), resp.json()['code'])
+AssertionError: '10001' != '20111'
+- 10001
++ 20111
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_2' class='none'>
+    <td class='failCase'><div class='testcase'>test_invest_2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_2'>失败</button>
+    <div id='div_ft2_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_2'>失败</button>
+    <div id='div_ft2_2' class="collapse in" align="left">
+    <pre>
+    
+ft2_2: 开始执行测试用例 管理员加标
+&lt;class 'str'&gt; {"memberId":"#loan_member_id#","title":"借钱借钱","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+{"memberId":"#loan_member_id#","title":"借钱借钱","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+1008
+{"memberId":"1008","title":"借钱借钱","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+请求response: {"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_invest.py", line 38, in test_invest
+    raise e
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_invest.py", line 27, in test_invest
+    self.assertEqual(str(case.expected), resp.json()['code'])
+AssertionError: '10001' != None
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_invest_3</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_3'>错误</button>
+    <div id='div_ft2_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_3'>错误</button>
+    <div id='div_ft2_3' class="collapse in" align="left">
+    <pre>
+    
+ft2_3: 开始执行测试用例 管理员审核
+&lt;class 'str'&gt; {"id":"#load_id#","status":4}
+{"id":"#load_id#","status":4}
+找不到参数化的值
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\configparser.py", line 788, in get
+    value = d[option]
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\collections\__init__.py", line 914, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\collections\__init__.py", line 906, in __missing__
+    raise KeyError(key)
+KeyError: 'load_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_invest.py", line 24, in test_invest
+    case.data=context.replace(case.data)
+  File "E:\Pythontesting\python_15\InterfaceTest\common\context.py", line 20, in replace
+    raise e
+  File "E:\Pythontesting\python_15\InterfaceTest\common\context.py", line 14, in replace
+    v=config.get('data',g)
+  File "E:\Pythontesting\python_15\InterfaceTest\common\config.py", line 13, in get
+    return self.config.get(section,option)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\configparser.py", line 791, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'load_id' in section: 'data'
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_4' class='none'>
+    <td class='errorCase'><div class='testcase'>test_invest_4</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_4'>错误</button>
+    <div id='div_ft2_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_4'>错误</button>
+    <div id='div_ft2_4' class="collapse in" align="left">
+    <pre>
+    
+ft2_4: 开始执行测试用例 投资人正常登录
+&lt;class 'str'&gt; {"mobilephone":"#normal_user#","pwd":"#normal_pwd#"}
+{"mobilephone":"#normal_user#","pwd":"#normal_pwd#"}
+15810447878
+{"mobilephone":"15810447878","pwd":"#normal_pwd#"}
+123456
+{"mobilephone":"15810447878","pwd":"123456"}
+请求response: {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_invest.py", line 30, in test_invest
+    if resp.json()['mag']=='加标成功':
+KeyError: 'mag'
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_5' class='none'>
+    <td class='errorCase'><div class='testcase'>test_invest_5</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_5'>错误</button>
+    <div id='div_ft2_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_5'>错误</button>
+    <div id='div_ft2_5' class="collapse in" align="left">
+    <pre>
+    
+ft2_5: 开始执行测试用例 投资人正常投标
+&lt;class 'str'&gt; {"memberId":"#normal_member_id#","password"#normal_pwd#"","loanId":"#loan_id#","amount":"1000"}
+{"memberId":"#normal_member_id#","password"#normal_pwd#"","loanId":"#loan_id#","amount":"1000"}
+1017
+{"memberId":"1017","password"#normal_pwd#"","loanId":"#loan_id#","amount":"1000"}
+123456
+{"memberId":"1017","password"123456"","loanId":"#loan_id#","amount":"1000"}
+None
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_invest.py", line 24, in test_invest
+    case.data=context.replace(case.data)
+  File "E:\Pythontesting\python_15\InterfaceTest\common\context.py", line 22, in replace
+    data=re.sub(p,v,data,count=1)##替换
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\re.py", line 192, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\re.py", line 309, in _subx
+    template = _compile_repl(template, pattern)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\re.py", line 300, in _compile_repl
+    return sre_parse.parse_template(repl, pattern)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\sre_parse.py", line 954, in parse_template
+    s = Tokenizer(source)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\sre_parse.py", line 228, in __init__
+    string = str(string, 'latin1')
+TypeError: decoding to str: need a bytes-like object, NoneType found
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_6' class='none'>
+    <td class='errorCase'><div class='testcase'>test_invest_6</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_6' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_6'>错误</button>
+    <div id='div_ft2_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_6' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_6'>错误</button>
+    <div id='div_ft2_6' class="collapse in" align="left">
+    <pre>
+    
+ft2_6: 开始执行测试用例 投资人投资不输入金额
+&lt;class 'str'&gt; {"memberId":"#normal_member_id#","password"#normal_pwd#"","loanId":"#loan_id#","amount":""}
+{"memberId":"#normal_member_id#","password"#normal_pwd#"","loanId":"#loan_id#","amount":""}
+1017
+{"memberId":"1017","password"#normal_pwd#"","loanId":"#loan_id#","amount":""}
+123456
+{"memberId":"1017","password"123456"","loanId":"#loan_id#","amount":""}
+None
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_invest.py", line 24, in test_invest
+    case.data=context.replace(case.data)
+  File "E:\Pythontesting\python_15\InterfaceTest\common\context.py", line 22, in replace
+    data=re.sub(p,v,data,count=1)##替换
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\re.py", line 192, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\re.py", line 309, in _subx
+    template = _compile_repl(template, pattern)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\re.py", line 300, in _compile_repl
+    return sre_parse.parse_template(repl, pattern)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\sre_parse.py", line 954, in parse_template
+    s = Tokenizer(source)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\sre_parse.py", line 228, in __init__
+    string = str(string, 'latin1')
+TypeError: decoding to str: need a bytes-like object, NoneType found
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_7' class='none'>
+    <td class='errorCase'><div class='testcase'>test_invest_7</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_7' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_7'>错误</button>
+    <div id='div_ft2_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_7' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_7'>错误</button>
+    <div id='div_ft2_7' class="collapse in" align="left">
+    <pre>
+    
+ft2_7: 开始执行测试用例 投资人投资输入负数金额
+&lt;class 'str'&gt; {"memberId":"#normal_member_id#","password"#normal_pwd#"","loanId":"#loan_id#","amount":"-1000"}
+{"memberId":"#normal_member_id#","password"#normal_pwd#"","loanId":"#loan_id#","amount":"-1000"}
+1017
+{"memberId":"1017","password"#normal_pwd#"","loanId":"#loan_id#","amount":"-1000"}
+123456
+{"memberId":"1017","password"123456"","loanId":"#loan_id#","amount":"-1000"}
+None
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_invest.py", line 24, in test_invest
+    case.data=context.replace(case.data)
+  File "E:\Pythontesting\python_15\InterfaceTest\common\context.py", line 22, in replace
+    data=re.sub(p,v,data,count=1)##替换
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\re.py", line 192, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\re.py", line 309, in _subx
+    template = _compile_repl(template, pattern)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\re.py", line 300, in _compile_repl
+    return sre_parse.parse_template(repl, pattern)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\sre_parse.py", line 954, in parse_template
+    s = Tokenizer(source)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\sre_parse.py", line 228, in __init__
+    string = str(string, 'latin1')
+TypeError: decoding to str: need a bytes-like object, NoneType found
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>test_login.LoginTest</td>
+    <td class="text-center">8</td>
+    <td class="text-center">8</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c3',8)" class="detail" id='c3'>详细</a></td>
+</tr>
+
+<tr id='pt3_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
+    <div id='div_pt3_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
+    <div id='div_pt3_1' class="collapse in" align="left">
+    <pre>
+    
+pt3_1: 请求response: {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt3_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_2'>通过</button>
+    <div id='div_pt3_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt3_2'>通过</button>
+    <div id='div_pt3_2' class="collapse in" align="left">
+    <pre>
+    
+pt3_2: 请求response: {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt3_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_3</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_3'>通过</button>
+    <div id='div_pt3_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt3_3'>通过</button>
+    <div id='div_pt3_3' class="collapse in" align="left">
+    <pre>
+    
+pt3_3: 请求response: {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt3_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_4</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_4'>通过</button>
+    <div id='div_pt3_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt3_4'>通过</button>
+    <div id='div_pt3_4' class="collapse in" align="left">
+    <pre>
+    
+pt3_4: 请求response: {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt3_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_5</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_5'>通过</button>
+    <div id='div_pt3_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt3_5'>通过</button>
+    <div id='div_pt3_5' class="collapse in" align="left">
+    <pre>
+    
+pt3_5: 请求response: {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt3_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_6</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_6' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_6'>通过</button>
+    <div id='div_pt3_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_6' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt3_6'>通过</button>
+    <div id='div_pt3_6' class="collapse in" align="left">
+    <pre>
+    
+pt3_6: 请求response: {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt3_7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_7</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_7' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_7'>通过</button>
+    <div id='div_pt3_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_7' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt3_7'>通过</button>
+    <div id='div_pt3_7' class="collapse in" align="left">
+    <pre>
+    
+pt3_7: 请求response: {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt3_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_8</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_8' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_8'>通过</button>
+    <div id='div_pt3_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_8' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt3_8'>通过</button>
+    <div id='div_pt3_8' class="collapse in" align="left">
+    <pre>
+    
+pt3_8: 请求response: {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>test_recharge.RechargeTest</td>
+    <td class="text-center">15</td>
+    <td class="text-center">14</td>
+    <td class="text-center">0</td>
+    <td class="text-center">1</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c4',15)" class="detail" id='c4'>详细</a></td>
+</tr>
+
+<tr id='pt4_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_01</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_1'>通过</button>
+    <div id='div_pt4_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_1'>通过</button>
+    <div id='div_pt4_1' class="collapse in" align="left">
+    <pre>
+    
+pt4_1: 正常登录
+请求response: {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft4_2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_recharge_02</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft4_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft4_2'>错误</button>
+    <div id='div_ft4_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft4_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft4_2'>错误</button>
+    <div id='div_ft4_2' class="collapse in" align="left">
+    <pre>
+    
+ft4_2: 充值成功
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_recharge.py", line 23, in test_recharge
+    member=self.mysql.fetch_one(sql)
+  File "E:\Pythontesting\python_15\InterfaceTest\common\do_mysql.py", line 16, in fetch_one
+    self.cursor.execute(sql)
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mobilephone='15810447878'' at line 1")
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_03</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_3'>通过</button>
+    <div id='div_pt4_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_3'>通过</button>
+    <div id='div_pt4_3' class="collapse in" align="left">
+    <pre>
+    
+pt4_3: 充值成功
+请求response: {"status":1,"code":"10001","data":{"id":282,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"15810447878","leaveamount":"7512299.92","type":"1","regtime":"2019-05-02 15:10:46.0"},"msg":"充值成功"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_04</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_4'>通过</button>
+    <div id='div_pt4_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_4'>通过</button>
+    <div id='div_pt4_4' class="collapse in" align="left">
+    <pre>
+    
+pt4_4: 充值成功
+请求response: {"status":1,"code":"10001","data":{"id":282,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"15810447878","leaveamount":"8012299.92","type":"1","regtime":"2019-05-02 15:10:46.0"},"msg":"充值成功"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_05</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_5'>通过</button>
+    <div id='div_pt4_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_5'>通过</button>
+    <div id='div_pt4_5' class="collapse in" align="left">
+    <pre>
+    
+pt4_5: 参数错误：不输入任何参数
+请求response: {"status":0,"code":"20115","data":null,"msg":"请输入金额"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_06</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_6' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_6'>通过</button>
+    <div id='div_pt4_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_6' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_6'>通过</button>
+    <div id='div_pt4_6' class="collapse in" align="left">
+    <pre>
+    
+pt4_6: 参数错误：手机号不能为空
+请求response: {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_07</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_7' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_7'>通过</button>
+    <div id='div_pt4_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_7' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_7'>通过</button>
+    <div id='div_pt4_7' class="collapse in" align="left">
+    <pre>
+    
+pt4_7: 参数错误：充值金额不能为空
+请求response: {"status":0,"code":"20115","data":null,"msg":"请输入金额"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_08</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_8' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_8'>通过</button>
+    <div id='div_pt4_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_8' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_8'>通过</button>
+    <div id='div_pt4_8' class="collapse in" align="left">
+    <pre>
+    
+pt4_8: 此手机号对应的会员不存在
+请求response: {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_09</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_9' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_9'>通过</button>
+    <div id='div_pt4_9' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_9' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_9'>通过</button>
+    <div id='div_pt4_9' class="collapse in" align="left">
+    <pre>
+    
+pt4_9: 手机格式不正确：非数值
+请求response: {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_10' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_10</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_10' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_10'>通过</button>
+    <div id='div_pt4_10' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_10' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_10'>通过</button>
+    <div id='div_pt4_10' class="collapse in" align="left">
+    <pre>
+    
+pt4_10: 手机格式不正确：10位
+请求response: {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_11' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_11</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_11' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_11'>通过</button>
+    <div id='div_pt4_11' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_11' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_11'>通过</button>
+    <div id='div_pt4_11' class="collapse in" align="left">
+    <pre>
+    
+pt4_11: 手机格式不正确：11位
+请求response: {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_12' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_12</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_12' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_12'>通过</button>
+    <div id='div_pt4_12' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_12' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_12'>通过</button>
+    <div id='div_pt4_12' class="collapse in" align="left">
+    <pre>
+    
+pt4_12: 输入金额的金额小数不能超过两位
+请求response: {"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_13' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_13</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_13' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_13'>通过</button>
+    <div id='div_pt4_13' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_13' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_13'>通过</button>
+    <div id='div_pt4_13' class="collapse in" align="left">
+    <pre>
+    
+pt4_13: 请输入范围在 0 到 50 万之间的正数：500000.01
+请求response: {"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_14' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_14</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_14' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_14'>通过</button>
+    <div id='div_pt4_14' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_14' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_14'>通过</button>
+    <div id='div_pt4_14' class="collapse in" align="left">
+    <pre>
+    
+pt4_14: 请输入范围在 0 到 50 万之间的正数：-0.01
+请求response: {"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_15' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_recharge_15</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_15' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_15'>通过</button>
+    <div id='div_pt4_15' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_15' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_15'>通过</button>
+    <div id='div_pt4_15' class="collapse in" align="left">
+    <pre>
+    
+pt4_15: 请输入数字：q1
+请求response: {"status":0,"code":"20118","data":null,"msg":"请输入数字"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>test_register.RegisterTest</td>
+    <td class="text-center">9</td>
+    <td class="text-center">8</td>
+    <td class="text-center">0</td>
+    <td class="text-center">1</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c5',9)" class="detail" id='c5'>详细</a></td>
+</tr>
+
+<tr id='ft5_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_register_1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft5_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft5_1'>错误</button>
+    <div id='div_ft5_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft5_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft5_1'>错误</button>
+    <div id='div_ft5_1' class="collapse in" align="left">
+    <pre>
+    
+ft5_1: Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python37\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\Pythontesting\python_15\InterfaceTest\testcase\test_register.py", line 20, in test_register
+    max_phone = self.mysql.fetch_one(sql)[0]  ##返回最近的一条数据   最大的手机号    元组类型
+KeyError: 0
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_2</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt5_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_3</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt5_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_4</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt5_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_5</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt5_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_6</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt5_7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_7</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt5_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_8</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt5_9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_9</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>总计</td>
+    <td>41</td>
+    <td>31</td>
+    <td>3</td>
+    <td>7</td>
+    <td>通过率：75.61%</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>
