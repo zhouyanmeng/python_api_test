@@ -44,5 +44,5 @@ robotframeworklexer==1.1
 selenium==3.141.0
 six==1.12.0
 toolz==0.9.0
-urllib3==1.24.1
+urllib3==1.24.2
 wxPython==4.0.4
