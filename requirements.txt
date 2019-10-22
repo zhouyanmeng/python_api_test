@@ -17,7 +17,7 @@ openpyxl==2.6.0
 pandas==0.24.1
 pandas-anaphora==0.1b0
 paramiko==2.4.2
-Pillow==5.4.1
+Pillow==6.2.0
 post==2018.11.20
 public==2018.11.20
 pyasn1==0.4.5
