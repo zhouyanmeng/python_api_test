@@ -29,7 +29,7 @@ PyPubSub==3.3.0
 python-dateutil==2.8.0
 pytz==2018.9
 pywin32==224
-PyYAML==5.1
+PyYAML==5.4
 query-string==2018.11.20
 request==2018.11.20
 requests==2.21.0
